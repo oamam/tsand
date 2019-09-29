@@ -1,0 +1,19 @@
+{
+  "name": "tsand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/oamam/tsand.git",
+  "author": "mamao <chapa0106@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./build/main.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
